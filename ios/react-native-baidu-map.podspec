@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "**/*.h"
 
-  s.frameworks = "CoreLocation", "QuartzCore", "OpenGLES", "SystemConfiguration", "CoreGraphics", "Security", "CoreTelephony" 
+  s.frameworks = "CoreLocation", "QuartzCore", "OpenGLES", "SystemConfiguration", "CoreGraphics", "Security", "CoreTelephony"
 
   s.libraries = "c++", "sqlite3", "ssl", "crypto"
 
@@ -56,6 +56,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "React"
-  s.dependency 'BaiduMapKit', '4.2.0'
-  s.dependency 'BMKLocationKit', '1.3.0.2'
+  s.dependency 'BaiduMapKit', '4.2.1'
+  s.dependency 'BMSLocationKit', '1.3.0.2'
 end
